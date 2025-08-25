@@ -1,0 +1,54 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+#bg-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: contain; 
+  z-index: -1;
+  background-color: rgb(0, 0, 0); 
+}
+
+body {
+  position: relative;
+  z-index: 1;
+  color: #f8f8f2;
+  text-align: center;
+}
+
+body {
+  text-shadow: 2px 2px 4px rgb(25, 0, 255);
+}
+
+h1 {
+  font-size: 60px;
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+
+h6 {
+  font-size: 23px;
+}
+
+a {
+  font-size: 38px;
+}
+
+p {
+  font-size: 23px;
+}
+
+html, body {
+  height: 100%;
+  overflow: auto; /* ou 'scroll' */
+}

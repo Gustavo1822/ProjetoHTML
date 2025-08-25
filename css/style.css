@@ -1,0 +1,43 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+#bg-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: contain; 
+  z-index: -1;
+  background-color: black; 
+}
+
+body {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 22px;
+}
+
+@font-face {
+  font-family: 'Fonte2'; 
+  src: url('../Fontes/Fonte2.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Fonte2', sans-serif;
+}
+
